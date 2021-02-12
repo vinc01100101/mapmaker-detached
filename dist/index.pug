@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale = 1.0, user-scalable=no")
+        title MapMaker_REVISION
+        link(rel='stylesheet', href='/mapMakerV2.css', type='text/css')
+        //- link(rel='manifest', href='/manifest.json')
+
+        //- fb
+        link(rel='canonical', href="https://vince-r-unnamed-rpg.glitch.me")
+        meta(property='og:title', content='unnamed | Online RPG')
+        meta(property='og:site_name', content="UnnamedRPG")
+        meta(property='og:url', content="https://vince-r-unnamed-rpg.glitch.me")
+        meta(property='og:description', content='Les go!')
+        meta(property='og:image', content='https://cdn.glitch.com/3253914e-20db-4c8c-831d-993c93e70462%2Fblue_poring_by_kyubiform_dbhdhq7-fullview.jpg?v=1586065063398', type='image/jpg')
+
+
+        link(href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap", rel="stylesheet")
+        
+    body
+        
+
+        div(id='variables')
+            div(id="page") #{page}
+            div(id="isDesktop") #{isDesktop}
+            div(id="isFirefox") #{isFirefox}
+            div(id="userAgent") #{userAgent}
+
+    
+        div(id='root')
+
+        script(src='/socket.io/socket.io.js')
+        script(src="/CCapture.all.min.js", type='application/javascript')
+        script(src='/gate.js', type='application/javascript')
+        
